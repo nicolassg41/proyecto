@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <ui:composition>
+        <div class="content-wrapper">
+
+            <div class="row">
+
+
+            </div>
+            <!-- Quick Action Toolbar Starts-->
+            <div class="row quick-action-toolbar">
+                <div class="col-md-12 grid-margin">
+                    <div class="card">
+                        <div class="card-header d-block d-md-flex">
+                            <h5 class="mb-0">Crear Registro</h5>
+                            <p class="ml-auto mb-0">La mejor experiencia para el usuario<i class="bi bi-list-stars"></i></p>
+                        </div>
+                        <div class="d-md-flex row m-0 quick-action-btns" role="group" aria-label="Quick action buttons">
+                            <div class="col-md-6 col-md-3 p-3 text-center btn-wrapper">
+                                <button type="button" class="btn px-0"> <i class="icon-docs mr-2"></i>Agregar apartamento en venta</button>
+                            </div>
+
+                            <div class="col-md-6 col-md-3 p-3 text-center btn-wrapper">
+                                <button type="button" class="btn px-0"><i class="icon-docs mr-2"></i>Agregar apartamento en arriendo</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Quick Action Toolbar Ends-->
+
+
+            <div class="row">
+                <div class="col-md-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-sm-flex align-items-center mb-4">
+                                <h4 class="card-title mb-sm-0">Apartamentos en venta y arriendo</h4>
+                                <a href="#" class="text-dark ml-auto mb-3 mb-sm-0"> Visualizar todos los apartamentos</a>
+                            </div>
+                            <div class="table-responsive border rounded p-1">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th class="font-weight-bold">Nombre del propietario</th>
+                                            <th class="font-weight-bold">Interior - Apartamento</th>
+                                            <th class="font-weight-bold">Fecha de la solicitud</th>
+                                            <th class="font-weight-bold">Fecha para visita</th>
+                                            <th class="font-weight-bold">Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img class="img-sm rounded-circle" src="images/faces/face1.jpg" alt="profile image"/> Katie Holmes
+                                            </td>
+                                            <td>6-401</td>                                            
+                                            <td>04 Jun 2019</td>
+                                            <td>18 Jul 2019</td>
+                                            <td>
+                                                <div class="badge badge-success p-2">Venta</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="img-sm rounded-circle" src="images/faces/face2.jpg" alt="profile image"/> Minnie Copeland
+                                            </td>
+                                            <td>9-101</td>
+                                            <td>25 Sep 2019</td>
+                                            <td>07 Oct 2019</td>
+                                            <td>
+                                                <div class="badge badge-danger p-2">Pendiente</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="img-sm rounded-circle" src="images/faces/face3.jpg" alt="profile image"/> Rodney Sims
+                                            </td>
+                                            <td>15-901</td>                                            
+                                            <td>12 dec 2019</td>
+                                            <td>26 Aug 2019</td>
+                                            <td>
+                                                <div class="badge badge-warning p-2">En proceso</div>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="d-flex mt-4 flex-wrap">
+                                <p class="text-muted">Mostrar de a 3 por 1 paginas</p>
+                                <nav class="ml-auto">
+                                    <ul class="pagination separated pagination-info">
+                                        <li class="page-item"><a href="#" class="page-link"><i class="icon-arrow-left"></i></a></li>
+                                        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                                        <li class="page-item"><a href="#" class="page-link">4</a></li>
+                                        <li class="page-item"><a href="#" class="page-link"><i class="icon-arrow-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ui:composition>
+</html>

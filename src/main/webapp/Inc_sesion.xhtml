@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Inicio de Sesion</title>
+        <h:outputStylesheet library = "css" name = "Style_inc.css" />
+    </h:head>
+    <h:body>
+        <nav class="nav__hero">
+            <div class="container nav__container">
+
+                <div class="links">
+                    <a href="C:/Users/Administrator%20KNCM/Desktop/ProyectoADSI/Test/Prueba.html" class="link">Inicio</a>
+                    <a href="#" class="link">Mapa de Navegacion</a>
+                    <a href="C:/Users/Administrator%20KNCM/Desktop/ProyectoADSI/Test/man_identidad.html" class="link">Manual de Identidad</a>
+                    <a href="C:/Users/Administrator%20KNCM/Desktop/ProyectoADSI/Test/contactanos.html" class="link link--active">Contacto</a>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="login-box">
+            <h:graphicImage library="images" name="icon_inc.png" class="avatar" />
+            <h1>Iniciar Sesion</h1> <br></br>
+            <form>
+                <!--User name-->
+                <span class="obligatorio">*</span>
+                <label for="username">Usuario</label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Ingrese su Usuario"/>
+
+                <!--password-->
+                <span class="obligatorio">*</span>
+                <label for="username">Contraseña</label>
+                <input type="password" required="obligatorio" placeholder="Ingrese su Contraseña"/>
+                <br></br>
+                <br></br>
+                <!--<input type="submit" value="Ingresar">-->
+                <link rel="stylesheet"
+                      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+                      integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+                      crossorigin="anonymous"/>
+
+                <a href="C:/Users/Administrator%20KNCM/Desktop/ProyectoADSI/Test/modulos.html" required="obligatorio" class="btn btn-dark">Ingresar</a>
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p> 
+
+
+
+
+
+
+
+                <a href="C:/Users/Administrator%20KNCM/Desktop/ProyectoADSI/Test/500.html">Olvidaste tu contraseña?</a> <br> </br>
+                <a class="button button-black" href="#(request.contextpath)/Registro.xhtml">Registrarse</a>
+            </form>
+        </div>
+
+    </h:body> 
+</html>
+
